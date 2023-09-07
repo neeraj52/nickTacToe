@@ -1,0 +1,75 @@
+.home {
+    background-color: #F6F1F1;
+    display: flex;
+    align-items: center;
+}
+
+.leftContainer {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: cadetblue;
+    padding: 0 15px;
+}
+
+.myLogo {
+    width: 440px;
+    height: 335px;
+}
+
+.rightContainer {
+    width: 100%;
+    height: 100%;
+    background-color: #F7FBFC;
+}
+
+.content {
+    display: flex;
+    gap: 40px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.description {
+    width: 100%;
+    padding-top: 180px;
+    font-size: 35px;
+    font-weight: 900;
+    color: #F29A43;
+    font-style: oblique;
+}
+
+.playButton {
+    font-size: 20px;
+    font-weight: 600;
+    border: 2px solid black;
+    background-color: lightseagreen;
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px 5px 25px 5px;
+    box-shadow: rgba(129, 161, 235, 0.4) 5px 5px, rgba(140, 106, 221, 0.3) 10px 10px, rgba(160, 110, 40, 0.2) 15px 15px, rgba(40, 79, 130, 0.1) 20px 20px, rgba(169, 26, 117, 0.05) 25px 25px;
+}
+
+.details {
+    height: 50%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+.help {
+    font-size: 20px;
+    font-weight: 600;
+    border: 2px solid black;
+    padding: 10px 25px;
+    margin: 0px 8% 35px 0px;
+    border-radius: 25px;
+    background-color: #acbcff;
+    cursor: pointer;
+}

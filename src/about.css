@@ -1,0 +1,23 @@
+.about {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+
+.aboutTitle {
+    font-size: 30px;
+    color: darkorange;
+    font-weight: 900;
+    display: flex;
+}
+
+.aboutDescription, .creator, .instruction {
+    width: 98%;
+    text-align: left;
+    line-height: 1.2;
+}
+
+.heading {
+    color: lightseagreen;
+}
